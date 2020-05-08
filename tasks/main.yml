@@ -1,0 +1,37 @@
+---
+# tasks file for noreque-ubuntu-repos-multimedia
+
+- name: Add Audacity repository
+  apt_repository:
+    repo: ppa:ubuntuhandbook1/audacity
+    state: present
+
+- name: Add dhor/myway repository (photography)
+  apt_repository:
+    repo: ppa:dhor/myway
+    state: present 
+
+- name: Add the GIMP repository
+  apt_repository:
+    repo: ppa:otto-kesselgulasch/gimp
+    state: present 
+
+- name: Add the GScan2pdf repository
+  apt_repository:
+    repo: ppa:jeffreyratcliffe/ppa
+    state: present
+
+- name: Add the Olive Editor repository
+  apt_repository:
+    repo: ppa:olive-editor/olive-editor
+    state: present
+
+- name: Add the OpenShot repository
+  apt_repository:
+    repo: ppa:openshot.developers/ppa
+    state: present
+
+- name: Add the OpenShot repository
+  apt_repository:
+    repo: ppa:openshot.developers/ppa
+    state: present
